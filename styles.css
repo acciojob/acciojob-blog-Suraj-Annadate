@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+.moviePic {
+    height: 200px;
+    width: auto;
+    opacity: 0.8;
+  }
+
+  .movieDetail {
+    position: relative;
+    top: 50%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .scrollingText {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scrolling 10s linear infinite;
+  }
+img{
+	height:200px;
+	width:200px;
+}
+
+  @keyframes scrolling {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
